@@ -1,0 +1,133 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+.gencssp{
+
+}
+h2.gencssh {
+    color: #464040;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+}
+.form{
+
+}
+.containerform {
+    text-align: center;
+    /* border: 1px solid #212020; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 26px 26px 25px 26px;
+    height: 85vh;
+}
+.row{
+
+}
+.col{
+
+}
+input[type="text"] {
+    margin-right: 30px;
+    padding: 3px;
+    margin-left: 7px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+input[type="text"]:hover{
+  cursor: pointer;
+  background: #fff;
+  border : 2px solid lightblue;
+  transition: 0.5s ease-out;
+}
+.useremail {
+    padding: 35px;
+}
+.password {
+    margin-left: 29px;
+
+}
+input[type="password"] {
+    margin-right: 27px;
+    margin-left: 7px;
+    border: 2px solid #ddd;
+    padding: 3px;
+    border-radius: 4px;
+}
+input[type="password"]:hover{
+  cursor: pointer;
+  background: #fff;
+  border : 2px solid lightblue;
+  transition: 0.5s ease-out;
+}
+button.btn {
+    padding: 5px;
+    margin-top: 50px;
+    width: 85px;
+  background: #fff;
+    border: 2px solid #ddd;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+button.btn:hover {
+  cursor: pointer;
+    background: #cccbca;
+
+  border : 2px solid lightblue;
+  transition: 0.5s ease-out;
+}
+.error {
+    margin-top: 26px;
+    padding: 15px;
+    border: 3px solid #ddd;
+    width: 197px;
+    background: bisque;
+    border-radius: 5px;
+    color: red;
+    font-size: 16px;
+}
+
+input.user {
+    margin: 0;
+    margin-left: 7px;
+}
+.gencssh2 {
+    /* text-align: center; */
+    padding: 10px;
+    position: absolute;
+    overflow: hidden;
+    left: 33rem;
+    top: 9rem;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+.header {
+    position: relative;
+}
+.gencssp1 {
+    position: absolute;
+    top: 12.5rem;
+    width: 58%;
+    text-align: justify;
+    left: 20rem;
+    padding: 20px;
+    font-size: 18px;
+}
+.btnp {
+    position: fixed;
+    top: 25rem;
+    left: 67rem;
+    padding: 6px;
+    background: bisque;
+    border: 2px solid #ddd;
+    width: 85px;
+}
+.btnp:hover{
+  cursor: pointer;
+
+    text-transform: uppercase;
+    color: red;
+  border : 2px solid lightblue;
+  transition: 0.3s ease-out;
+}
